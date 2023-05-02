@@ -1,9 +1,9 @@
 # GitHub Backup
-PowerShell to backup repositories from a GitHub organization locally.
+PowerShell to backup repositories from a GitHub organization locally. There is an additional optional flag for repos outside the org.
 
 Example: 
 
-``.\backup-repos.ps1 -Username "your-username" -Token "your-token" -OrgName "your-org-name" -BackupDir "C:\backups"``
+``.\backup-repos.ps1 -Username "your-username" -Token "your-token" -OrgName "" -BackupDir "C:\backups"``
 
 The backup created with the ``git clone --mirror`` command creates a bare repository that contains all branches, tags, and commits, as well as any other Git metadata for the repository. This means that you can use the backup to restore the full history and contents of the repository, including any branches or tags that may have been deleted.
 
