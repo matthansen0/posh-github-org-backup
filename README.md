@@ -1,5 +1,5 @@
 # GitHub Backup
-PowerShell to backup repositories from a GitHub organization locally. There is an additional optional flag for repos outside the org.
+PowerShell to backup repositories from a GitHub organization locally.
 
 Example: 
 
